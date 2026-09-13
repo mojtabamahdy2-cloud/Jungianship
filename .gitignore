@@ -1,0 +1,49 @@
+# ============================================================
+# Jungianship — .gitignore
+# ============================================================
+
+# --- Secrets ---
+.env
+
+# --- Planning / personal docs (not for public repo) ---
+implementation_plan.md
+task.md
+
+# --- Corpus: copyrighted source texts (EPUBs / PDFs) ---
+# Users must supply their own legally-obtained copies.
+# See README → "Sourcing the Corpus" for guidance.
+Jungs_work/
+corpus/
+
+# --- Database & Vector Index ---
+# Generated locally after running index_corpus.py + embed_chunks.py
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env.local
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# --- Windows launcher (personal shortcut) ---
+start_bot.bat

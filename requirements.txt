@@ -1,0 +1,19 @@
+# Jungianship — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Or with uv:   uv pip install -r requirements.txt
+
+# Telegram bot framework (async, v21+)
+python-telegram-bot>=21.4.0
+
+# Google Gemini SDK (embeddings + generation)
+google-genai>=1.0.0
+
+# EPUB parsing
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Numerical / vector operations
+numpy>=1.26.0
+
+# Environment variable loading
+python-dotenv>=1.0.0

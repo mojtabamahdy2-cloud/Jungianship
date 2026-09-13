@@ -1,0 +1,4 @@
+# This file intentionally left empty.
+# It keeps the data/ directory tracked by git.
+# The actual database files (*.db) are excluded via .gitignore — 
+# you will generate them locally by running index_corpus.py.
