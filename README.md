@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/banner.jpg" alt="Jungianship Banner" width="100%" />
+
+<br/><br/>
+
 # Jungianship
 
 **Scholar-grade AI philosophical *companionship* — a companion grounded in the complete writings of Carl Gustav Jung.**
